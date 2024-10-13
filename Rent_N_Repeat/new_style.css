@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
+  
+}
+
+body {
+    background-color: rgb(247, 247, 233) !important;
+}
+
+.btn-beige {
+  background-color: beige;
+  color: brown; /* Choose text color that contrasts well with beige */
+  border: none; /* Optional: remove border */
+}
+.btn-beige:hover {
+  background-color: #d2b48c; /* Change color on hover */
+}
+
+.btn-beige:active {
+  background-color: #6f4e37; /* Change color on button press */
+}
+
+.btn-outline-coffee {
+  color: #6f4e37; /* Coffee text color */
+  border-color: #6f4e37; /* Coffee border color */
+  border-width: 2px; /* Thicker border */
+  font-size: 1.25rem; /* Larger text size */
+  font-weight: bold;
+}
+
+.btn-coffee {
+  color: #6f4e37;
+  background-color: beige;
+  border-color: #6f4e37; /* Coffee border color */
+  border-width: 2px; /* Thicker border */
+  font-size: 1rem; /* Larger text size */
+  font-weight: bold;
+}
+
+.btn-outline-coffee:hover,
+.btn-coffee:hover {
+  background-color: #6f4e37; /* Coffee background on hover */
+  color: white; /* Text turns white when hovered */
+}
+
+.btn-dark-blue {
+  background-color: #495867 !important; /* Dark bluish-gray background */
+  color: white !important; /* White text */
+  border: 1px solid #495867; /* Ensure the button has a border */
+  padding: 0.375rem 0.75rem; /* Padding to make it look like a button */
+  border-radius: 0.25rem; /* Add border-radius to look like Bootstrap buttons */
+  display: inline-block; /* Make it behave like a button */
+}
+
+.btn-dark-blue:hover {
+  background-color: #394452 !important; /* Darker shade on hover */
+  border-color: #394452 !important; /* Darker border on hover */
+}
+
+.navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img {
+  border-radius: 50%;
+  /* Make the logo icon circular */
+}
+
+.nav-link:hover {
+  color: #f0ad4e !important;
+  /* Change the hover color to a light orange */
+}

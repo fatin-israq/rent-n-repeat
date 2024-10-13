@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Hero Section */
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.25rem;
+}
+
+.hero .btn {
+  padding: 15px 30px;
+}
+
+/* Featured Products Section */
+.product-grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border: none;
+  transition: transform 0.2s ease-in-out;
+  height: 100%; /* Make sure all cards have the same height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Space out card elements */
+}
+
+.card-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+  margin-top: 50px;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+footer ul {
+  padding-left: 0;
+}
+
+footer ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+p > .display-4 {
+  color: white;
+}
